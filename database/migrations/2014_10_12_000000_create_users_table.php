@@ -24,7 +24,7 @@ class CreateUsersTable extends Migration
         $table->string('address')->nullable();
         $table->string('phone')->nullable();
 
-        $table->string('rol'); // 'admin', 'patient', 'doctor'
+        $table->string('role'); // 'admin', 'patient', 'doctor'
 
         $table->rememberToken();
         $table->timestamps();
